@@ -1,0 +1,33 @@
+div.add_btn_area {padding-bottom: 20px}
+
+.jumbotron   {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: inherit;
+  background-color: #eee;
+}
+#fh5co-logo {
+  position: relative;
+  z-index: 2;
+  font-size: 36px;
+  margin-top: 23px;
+  font-weight: 700;
+  float: left;
+}
+#fh5co-logo i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+  color: #BC1C00;
+  background: rgba(0, 0, 0, 0.06);
+  padding: 10px;
+}
+#fh5co-logo a {
+  color: #BC1C00;
+  text-decoration: none;
+}
+#fh5co-logo a:hover, #fh5co-logo a:focus {
+  color: #BC1C00 !important;
+}

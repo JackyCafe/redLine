@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#event_btn").click(function(){
+  $("#event_content").slideToggle();
+  });
+});
+</script>
+
+<style> 
+.event{
+	position: absolute;
+	width: 290px;
+	height: 200px;
+	border:0px;
+	top:300px;
+}
+#event_content{
+	width: 290px;
+	background-color:rgba(0,0,0,0.6);
+	position:absolute;
+	color:rgba(255,255,255,1);
+	bottom: 40px;
+	left: 0;
+	display:none;
+}
+#event_btn{
+	width:290px;
+	height:40px;
+	background-color:rgba(0,0,0,0.6);
+	position:absolute;
+	text-align:center;
+	color:rgba(255,255,255,1);
+	bottom: 0;
+	left: 0;
+}
+</style>
+</head>
+<body>
+<div class="event">
+  <div id="event_btn">Toggle</div>
+  <div id="event_content">• 時間：01/05/2017<br>
+  • 地點：文化廣場<br>
+  • 時間：<br>
+  • 時間<br>
+  </div>
+</div>
+
+</body>
+</html>
